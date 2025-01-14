@@ -1,0 +1,71 @@
+.main {
+  padding: 30px;
+  width: auto;
+}
+
+.AppHeading {
+  margin-bottom: 30px;
+}
+
+.productGrid {
+  width: auto;
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+}
+
+.productCartGrid {
+  list-style: none;
+  width: auto;
+  display: grid;
+  gap: 30px;
+  align-items: center;
+  justify-content: start;
+  min-width: max-content;
+  margin: 30px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CartPageHeader {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  gap: 30px;
+}
+
+hr {
+  margin-bottom: 30px;
+}
+
+.BackButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: rgb(43, 61, 226);
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 20px;
+    width: auto;
+  }
+
+  .productGrid {
+    width: auto;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
